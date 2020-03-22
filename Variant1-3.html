@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="http://code.jquery.com/jquery-latest.js">
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $("button").click(function() {
+                $("#div5[align|='right'").animate({
+                    left: '-100px'
+                });
+                $("#div9[align|='right'").animate({
+                    left: '-100px'
+                });
+            });
+            $("#div2").click(function() {
+                $('#div2').delay(100).animate({
+                    marginTop: +30
+                }, 0);
+            });
+            $("#div4").click(function() {
+                $('#div4').delay(100).animate({
+                    marginTop: +30
+                }, 0);
+            });
+            $("#div6").click(function() {
+                $('#div6').delay(100).animate({
+                    marginTop: +30
+                }, 0);
+            });
+            $("#div8").click(function() {
+                $('#div8').delay(100).animate({
+                    marginTop: +30
+                }, 0);
+            });
+            $("#div10").click(function() {
+                $('#div10').delay(100).animate({
+                    marginTop: +30
+                }, 0);
+            });
+        });
+    </script>
+</head>
+
+<body>
+    Вариант 1: Создать файл Variant1-3.html, добавить сверху кнопку, а затем пять абзацев с каким-либо текстом и между каждым абзацем по маленькому рисунку. При нажатии на любую из картинок должно происходить движение текущей вниз на 30px.
+    <p>Нажмите на кнопку, чтобы изменить положение для 3-го и 5-го абзацев:
+    </p>
+    <button>Click me</button> <br><br>
+
+    <div align="right" id="div1" style="width:440px;height:20px;position:absolute;">Щелкните по синему квадрату для сдвига вниз</div><br>
+    <div id="div2" style="background:blue;height:40px;width:40px;position:absolute;vertical-align: middle;"> </div><br><br><br>
+
+    <div align="right" id="div3" style="width:440px;height:20px;position:absolute;">Щелкните по зеленому квадрату для сдвига вниз</div><br>
+    <div id="div4" style="background:green;height:40px;width:40px;position:absolute;"></div><br><br><br>
+
+    <div align="right" id="div5" style="width:440px;height:20px;position:absolute;">Щелкните по черному квадрату для сдвига вниз</div><br>
+    <div id="div6" style="background:black;height:40px;width:40px;position:absolute;"></div><br><br><br>
+
+    <div align="right" id="div7" style="width:440px;height:20px;position:absolute;">Щелкните по розовому квадрату для сдвига вниз</div><br>
+    <div id="div8" style="background:fuchsia;height:40px;width:40px;position:absolute;"></div><br><br><br>
+
+    <div align="right" id="div9" style="width:440px;height:20px;position:absolute;">Щелкните по красному квадрату для сдвига вниз</div><br>
+    <div id="div10" style="background:red;height:40px;width:40px;position:absolute;"></div>
+</body>
+
+</html>
